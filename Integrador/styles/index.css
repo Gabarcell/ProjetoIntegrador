@@ -1,0 +1,94 @@
+body{
+    background-color:#00acee;
+    color: white;
+    font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top:70px;
+    
+}
+.park-img{
+    vertical-align: middle;
+}
+.nome-app{
+    text-align: center;
+}
+h1{
+    font-weight: 700;
+    display: inline-block;
+    font-size: 30px;
+    
+}
+form{
+    
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: 0 auto;
+
+}
+
+input{
+    
+    font-size:13px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 15px;
+    width: 70%;
+    height: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    align-self: center;
+    box-shadow: 1px 1px 2px 1px black;
+    opacity: 0.6;
+    transition: opacity 1.15s;
+    cursor: pointer;
+    
+    
+}
+input:hover{
+    opacity: 1;
+}
+
+.user-email{
+    margin-top:50px;
+}
+form [type="submit"]{
+    
+    width: 40%;
+    color: #00acee;
+    border-width: 1px;
+    font-weight: bolder;
+    background-color: rgb(40,40,40);
+    cursor: pointer;
+    padding: 8px;
+    margin-top: 10px;
+    align-self: center;
+    border-radius: 20px;
+    transition: opacity 1.05s, color 1.05s,background-color 1.05s;
+    box-shadow: 1px 1px 1px 1px rgb(40,40,40);
+}
+form [type="submit"]:hover{
+    opacity: 0.6;
+    cursor: pointer;
+    color:black;
+    background-color: white;
+}
+form [type="submit"]:active{
+    opacity: 0.2;
+
+}
+.button-subscribe{
+    
+    font-size: 10px;
+}
+.forget-pass{
+    color: black;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 25px;
+    font-size: 10px;
+    
+}

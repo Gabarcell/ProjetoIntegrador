@@ -1,0 +1,14 @@
+@media screen and (max-width: 760px) {
+    body{
+        background-color:#0090c9;
+    }
+    form{
+        margin: 0 auto;
+        width: 100%;
+    }
+    img{
+        width: 30%;
+    }
+
+
+}

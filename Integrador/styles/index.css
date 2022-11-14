@@ -1,8 +1,12 @@
 body{
     background-color:#00acee;
+}
+main{
+    
     color: white;
     font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     max-width: 1200px;
+    max-height: 800px;
     margin: 0 auto;
     padding: 20px;
     margin-top:70px;
@@ -91,4 +95,24 @@ form [type="submit"]:active{
     margin-bottom: 25px;
     font-size: 10px;
     
+}
+footer{
+    padding: 50px;
+    padding-top: 10px;
+    margin: 0;
+
+    margin-top: 50px;
+    margin-left: -30px;
+    align-self: center;
+    width: 95%;
+    height: 40px;
+    background: rgba(40, 40, 40, 0.3);
+    text-align: center;
+    line-height: 5px;
+}
+span{
+    color: rgb(40, 40, 40);
+}
+.footer-desenvolvido{
+    margin-top: 40px;
 }

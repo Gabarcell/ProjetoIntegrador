@@ -12,5 +12,16 @@
     .termos{
         font-size: 1px;
     }
+    .park-footer-img{
+        width: 5%;
+    }
+    footer{
+        margin-top: 50px;
+        font-size: 10px;
+        height: 10px;
+    }
+    .footer-desenvolvido{
+        margin-top: 20px;
+    }
 
 }

@@ -22,7 +22,14 @@
             <input class="user-pass" type="password" name="password" required  minlength="8" placeholder="Digite sua senha ">
             
             <input class="conf-pass" type="password" name="password" required  minlength="8" placeholder="Confirme sua senha ">
-            <button type="submit" class="button-enviar">ENVIAR E-MAIL</button>    
+
+            <button onclick="doSomething()" type="submit" class="button-enviar">Enviar E-mail</button>
+            <script>
+                function doSomething(){
+                    alert("Seu E-mail foi enviado com sucesso!")
+                    history.go(-1);
+                }
+            </script>
         </form>
     
     </main>

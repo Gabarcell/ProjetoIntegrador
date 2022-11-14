@@ -1,0 +1,58 @@
+h1{
+    
+    margi
+}
+.user-nome{
+    margin-bottom: 15px;
+
+}
+.check-termos{
+
+    box-shadow: 0px 0px 0px 0px;
+    width: 15%;
+    display: inline-block;
+
+
+}
+a{
+    font-size: 13px;
+    text-decoration: underline;
+    cursor: pointer;
+
+
+    
+}
+.termos{
+    align-self: center;
+    width: 30%;
+    padding-bottom: 15px;
+}
+.button-enviar{
+    display: block;
+    margin: 0 auto;
+    width: 40%;
+    color: #00acee;
+    border-width: 1px;
+    font-weight: bolder;
+    background-color: rgb(40,40,40);
+    cursor: pointer;
+    padding: 8px;
+    margin-top: 10px;
+    align-self: center;
+    border-radius: 20px;
+    transition: opacity 1.05s, color 1.05s,background-color 1.05s;
+    box-shadow: 1px 1px 1px 1px rgb(40,40,40);
+}
+.button-enviar:hover{
+    opacity: 0.6;
+    cursor: pointer;
+    color:black;
+    background-color: white;
+}
+.button-enviar:active{
+    opacity: 0.2;
+    color: black;
+}
+.button-enviar{
+    margin-top: 30px;
+}

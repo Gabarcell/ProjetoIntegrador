@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles/index.css"/>
+    <link rel="stylesheet" type="text/css" href="styles/media.css"/>
+    
+    <title>E-Vagas</title>
+</head>
+<body>
+    <main>          
+        <div class="nome-app">
+            <img class="park-img" width="100px" src="./images/estacione.png">
+            <h1></br> - Vagas</h1>
+        </div>
+        <form class="formulario-login-app">
+
+            <input class="user-email" type="email" name="email" required placeholder="Digite seu e-mail">
+
+            <input class="user-pass" type="password" name="password" required  minlength="8" placeholder="Digite sua senha ">
+            
+            <a class="forget-pass" href="forgot.html">Esqueci minha senha</a>
+            <button onclick="logar()" type="submit" class="button-login">Entrar</button>    
+
+            <button onclick="location = 'Cadastro.html'" type="submit" class="button-subscribe" >Não tem cadastro?</button>
+            
+        </form>
+    
+    <footer>
+        <div class="rodape-app">
+            <img class="park-footer-img" width="30px" src="./images/estacione.png">
+
+        </div>
+        <p>Porto Alegre 14/11/2022</p>
+        <p>Criado o Projeto Integrador-Web do curso de ADS</p>
+        <p class="footer-desenvolvido">Desenvolvido por <span>Gabriel Barcellos</span></p>
+    </footer>
+        <script>
+            function logar(){
+                alert("Seja bem-vindo ao E-Vagas!") 
+                window.open("home.html", "_self");
+            }
+        </script>
+
+    </main>
+    
+</body>
+</html>

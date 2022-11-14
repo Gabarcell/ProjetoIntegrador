@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles/index.css"/>
+    <link rel="stylesheet" type="text/css" href="styles/media.css"/>
+    <link rel="stylesheet" type="text/css" href="styles/forgot.css"/>
+    <link rel="stylesheet" type="text/css" href="styles/cadastro.css"/>
+    <title>Cadastro E-Vagas</title>
+</head>
+<body>
+    <header>
+        <a href="index.html"><img src="./images/retorna.png" width="20px"></a>
+        
+    </header>
+    <form class="formulario-cadastro">
+        <h1>Cadastro</h1>
+        <input class="user-nome" type="email" name="email" placeholder="Nome Completo">
+        <input class="user-email" type="email" name="email" placeholder="E-mail">
+        <input class="user-cpf" type="cpf" name="cpf" placeholder="CPF">
+        <input class="user-pass" type="password" name="password" required  minlength="8" placeholder="Senha ">
+        
+        <input class="conf-pass" type="password" name="password" required  minlength="8" placeholder="Confirme sua senha ">
+        <div class="termos">
+            <input class="check-termos" type="checkbox" name="check" ><a onclick="termosUso()">Li e aceito os termos de uso.</a> 
+        </div>
+        <button onclick="cadastrar() "type="submit" class="button-enviar">Cadastrar</button>
+        
+        <script>
+            function cadastrar(){
+                alert("Você foi cadastrado com sucesso!") 
+                history.go(-1);
+            }
+            function termosUso(){
+                alert("Termos de Uso \n\nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s")            }
+        </script>
+    </form>
+    <footer>
+        <div class="rodape-app">
+            <img class="park-footer-img" width="30px" src="./images/estacione.png">
+
+        </div>
+        <p>Porto Alegre 14/11/2022</p>
+        <p>Criado o Projeto Integrador-Web do curso de ADS</p>
+        <p class="footer-desenvolvido">Desenvolvido por <span>Gabriel Barcellos</span></p>
+    </footer>
+    
+</body>
+</html>

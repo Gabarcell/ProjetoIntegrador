@@ -7,6 +7,7 @@
   * Fillipi Paez Galvani
 
 
+obs: CONSIDERAR PRIMEIRA PASTA ProjetoIntegrador e abrir o primeiro arquivo index.html.
 
 -----------------------------------------DESCRIÇÃO DA APLICAÇÃO-------------------------------------------------------------------------------
 
@@ -23,4 +24,5 @@ Escolhemos uma parte da jornada do usuário e desenvolvemos a parte primaria da 
 tambem sendo possivel recuperar a senha clicando no link que direciona para frame de preenchimento das informações que por final enviará email com email cadastrado.
 Tambem adaptamos o botão de cadastro para direcionar a outro frame que efetua o cadastro do usuário e retorna para pagina inicial de login. Ao logar usuário receberá as boas vindas e estará na tela principal do E-VAGAS.
 
+Para executar o arquivo devemos abrir o index.html que irá abrir tela inicial e será possivel navegar pela aplicação.
 

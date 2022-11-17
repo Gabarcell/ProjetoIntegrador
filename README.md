@@ -26,3 +26,14 @@ Tambem adaptamos o botão de cadastro para direcionar a outro frame que efetua o
 
 Para executar o arquivo devemos abrir o index.html que irá abrir tela inicial e será possivel navegar pela aplicação.
 
+Jornada dos arquivos/pastas,
+
+* index.html - Tela de Login
+* forgot.html - Recuperação de senha
+* cadastro.html - Tela de cadastro do usuário
+* home.html - Tela inicial do E-VAGAS apos usuário estar logado
+
+Pasta styles consta a estilização em CSS dos arquivos e pasta images com as imagens usadas no app.
+
+
+

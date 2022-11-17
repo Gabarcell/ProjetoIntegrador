@@ -7,7 +7,7 @@
   * Fillipi Paez Galvani
 
 
-obs: CONSIDERAR PRIMEIRA PASTA ProjetoIntegrador e abrir o primeiro arquivo index.html.
+obs: CONSIDERAR PRIMEIRA PASTA ProjetoIntegrador/Integrador/index.html e abrir o primeiro arquivo index.html.
 
 -----------------------------------------DESCRIÇÃO DA APLICAÇÃO-------------------------------------------------------------------------------
 
